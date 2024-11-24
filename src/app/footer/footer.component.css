@@ -1,0 +1,40 @@
+ul,
+li,
+a,
+span {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: darkgreen;
+  width: 100vw;
+  height: 10vh;
+}
+ul {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+}
+li {
+  list-style: none;
+  font-weight: 600;
+  color: white;
+  height: 100%;
+  width: 110%;
+}
+a {
+  text-decoration: none;
+  height: 100%;
+}
+span {
+  margin-left: 10px;
+  color: black;
+  font-weight: 600;
+  font-size: 100%;
+  height: 100%;
+  justify-content: center;
+}
